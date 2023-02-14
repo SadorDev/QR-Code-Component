@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
-
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 0;
   margin: auto 0;
   box-sizing: border-box;
@@ -13,36 +13,48 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
-  max-width: -webkit-min-content;
   max-width: -moz-min-content;
   max-width: min-content;
-  border-radius: 20px;
   margin-top: 150px;
+  border-radius: 10px;
   background-color: hsl(0deg, 0%, 100%);
 }
 
-.content-container {
-  text-align: center;
-  padding: 1em;
+.content_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
 }
 
-.content-container img {
-  width: 290px;
+.content_container img {
+  width: 350px;
   border-radius: 10px;
 }
 
-.content-container h2 {
+.content_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_container h2 {
   font-family: "Outfit", sans-serif;
-}
-
-.content-container span {
   text-align: center;
-  color: hsl(220deg, 15%, 55%);
+  margin: 32px;
 }
 
+.content_container span {
+  color: hsl(220deg, 15%, 55%);
+  margin: 0 0 50px 0;
+  padding: 0 25px 0 25px;
+  text-align: center;
+}
 
 /* Footer */
 .attribution {
@@ -53,4 +65,4 @@ body {
 
 .attribution a {
   color: hsl(158deg, 36%, 37%);
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

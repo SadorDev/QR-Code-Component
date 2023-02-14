@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
 
 $border: 10px;
-
-body {
+@mixin flex {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+body {
+  @include flex;
   padding: 0;
   margin: auto 0;
   box-sizing: border-box;
@@ -13,41 +17,39 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flex;
   overflow: hidden;
   max-width: min-content;
+  margin-top: 150px;
   border-radius: $border;
-  margin-top: 50px;
   background-color: hsl(0, 0%, 100%);
 }
 
-.image-container {
-  display: flex;
-  justify-content: center;
-  padding: 1em;
+.content_container {
+  @include flex;
+  padding: 11px;
 }
 
-.image-container img {
-  width: 5px;
-  border-radius: $border;
+.content_container img {
+  width: 350px;
+  border-radius: 10px;
 }
 
-.heading-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.content_container {
+  @include flex;
 }
 
-.heading-container h2 {
+.content_container h2 {
   font-family: "Outfit", sans-serif;
+  text-align: center;
+  margin: 32px;
 }
 
-.heading-container span {
-  color: hsl(220, 15%, 55%);
-  padding: 25px;
+.content_container span {
+  color: hsl(220deg, 15%, 55%);
+  margin: 0 0 50px 0;
+  padding: 0 25px 0 25px;
+  text-align: center;
 }
 
 /* Footer */
