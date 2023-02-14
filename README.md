@@ -15,15 +15,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
 ![Completed](images/Final.png)
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -50,7 +46,6 @@ I learnt to always write css in SCSS which overwrites the styling in CSS
 
 I remembered the four values for margin and padding go from top, right, bottom, left
 I remembered to use px for width in order to make main content not responsive which was not needed for this challenge
-
 
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
